@@ -1,0 +1,9 @@
+[build]
+  command = "yarn build"
+  publish = ".tmp/build"
+
+[[plugins]]
+  package = "@netlify/plugin-functions-core"
+
+[functions]
+  directory = "netlify/functions"
